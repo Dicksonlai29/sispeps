@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(185, 186, 199);
+}
+/*------------index.php----------*/
+.index{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background-img.jpg);
+    background-position:25% 75%;
+    background-size: contain;
+    box-sizing: border-box;
+    position: relative;
+;
+}
+
+
+img.header{
+    max-width:100%;
+    height: auto;
+    display: block;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(62,98,128,0.7);
+    padding: 10px 0px 10px 0px;
+    color:white;
+
+}
+
+.menu nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu input, .menu button{
+    display: inline-block;
+    background-color: #8596c9;
+    border-radius: 25%;
+    padding: 5px 10px;
+    margin:0px 5px;
+}
+.page{
+    display: flex;
+}
+
+.negative-space{
+    display:inline-block;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.index-content{
+    display: inline-block;
+    width: 50%;
+    margin: 40px;
+    font-size: 30px;
+    color:white;
+}
+/*for enterform also*/
+.title{
+    font-size:72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 30px 0px 0px 0px;
+}
+
+.index-content table{
+    background-color: rgba(133,150,201,0.5);
+}
+/*for enterform also*/
+.btn{
+    display: block;
+    padding: 10px 45px;
+    background-color: #31efb8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+    margin: 0px 10px 0px 10px;
+}
+/*---------------------login.php+daftar_baru.php-------------*/
+.colour-space{
+    display:inline-block;
+    min-width: 30%;
+    max-width: 30%;
+    background-color: #406280;
+}
+
+.enterform{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin: 30px;
+
+}
+
+.enterform .title{
+    margin: 0px 0px 10px 0px;
+}
+
+.enterform label{
+    font-size: 25px;
+}
+
+.enterform input, .enterform select{
+    display: inline-block;
+    height: 70px;
+    width: 580px;
+    border-color: #406280;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 30px 0px;
+}
+
+.enterform button[type="reset"]{
+    display: block;
+    padding: 10px 45px;
+    background-color: #b1b2b5;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+}
